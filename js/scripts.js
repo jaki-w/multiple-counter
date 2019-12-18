@@ -5,10 +5,10 @@ $(document).ready(function() {
 
     var firstNumber = parseInt($(number1).val());
     var secondNumber = parseInt($(number2).val());
-    var i = 0;
+    var i = secondNumber;
 
 
-      for (var index = 0; index <= firstNumber; index += secondNumber) {
+      for (var index = secondNumber; index <= firstNumber; index += secondNumber) {
         alert(index);
       }
 
